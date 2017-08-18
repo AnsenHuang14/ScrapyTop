@@ -11,4 +11,14 @@ import scrapy
 class ToplistItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+	PkgName = scrapy.Field()
+	Title = scrapy.Field()
+	genre = scrapy.Field()
+	numDownloads = scrapy.Field()
+	fileSize =  scrapy.Field()
+	Lan = scrapy.Field()
+	Country = scrapy.Field()
+	operatingSystems = scrapy.Field()
+	LogoUrl = scrapy.Field()
+	ClkUrl = scrapy.Field()
+	pass
